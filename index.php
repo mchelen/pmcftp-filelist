@@ -18,6 +18,9 @@
 
     } else {
 
+exec("wget ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/file_list.txt");
+
+/*
 $myFile = "file_list.txt";
 
 $fh = fopen($myFile, 'w') or die("can't open file");
@@ -27,7 +30,7 @@ fwrite($fh, $stringData);
 $stringData = "Pointy Pinto\n";
 fwrite($fh, $stringData);
 fclose($fh);
-
+*/
 
     }
 
